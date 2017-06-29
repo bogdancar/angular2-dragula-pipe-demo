@@ -1,3 +1,10 @@
+This is an demo app on how to use a pipe on Angular 2 in conjunction with Dragula.
+
+Dragula is a js library to drag&drop elements into DOM. More about it here [Dragula Github](https://github.com/valor-software/ng2-dragula) and here [Dragula](http://valor-software.com/ng2-dragula/index.html)
+
+The demo shows you how to bind your 2 arrays (the one you drag elements from and the one you drop elements on) with 'dragulaModel' directive, so that your model gets updated on drag drop. Also you'll find a pipe that show you how to have the first array filtered on display when we drop elements on it.
+I left the events into the component if you want to test what is happening.
+
 # Dragula
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
